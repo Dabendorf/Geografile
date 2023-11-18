@@ -1,7 +1,7 @@
-git@github.com:Dabendorf/Bergle.git
-git@github.com:Dabendorf/Kommundle.git
-git@github.com:Dabendorf/Tradle.git
-git@github.com:Dabendorf/Worldle.git
+git clone git@github.com:Dabendorf/Bergle.git
+git clone git@github.com:Dabendorf/Kommundle.git
+git clone git@github.com:Dabendorf/Tradle.git
+git clone git@github.com:Dabendorf/Worldle.git
 
 mv Bergle ../bergle.privatevoid.eu
 mv Worldle ../worldle.privatevoid.eu
