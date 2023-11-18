@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Geographyle</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+		}
+
+		iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+
+		@media screen and (min-width: 600px) {
+
+			/* desktop */
+			body {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(2, 1fr);
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+
+			/* mobile */
+			body {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: auto;
+			}
+
+			iframe {
+				width: 100%;
+				border: none;
+				height: 100vh;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<iframe src="https://worldle.privatevoid.eu/"></iframe>
+	<iframe src="https://tradle.privatevoid.eu/"></iframe>
+	<iframe src="https://bergle.privatevoid.eu/"></iframe>
+	<iframe src="https://kommundle.privatevoid.eu/"></iframe>
+</body>
+
+</html>
